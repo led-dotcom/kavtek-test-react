@@ -1,0 +1,17 @@
+.sales{
+    margin: 1.5rem 2rem 1rem 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  0 0.1rem 0.3rem rgb(0, 0, 0);
+}
+
+.chartContainer{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 2rem;
+}

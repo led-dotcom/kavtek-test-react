@@ -4,7 +4,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
-import User from './components/Home/Users/User/User';
+import User from './components/User/User';
 
 function App() {
   return (

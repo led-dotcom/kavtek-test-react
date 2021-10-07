@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import User from './components/Home/Users/User/User';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route exact path="/contact" >
             <Contact />
+          </Route>
+          <Route exact path="/users/:id" >
+            <User />
           </Route>
         </Switch>
       </div>

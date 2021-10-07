@@ -1,0 +1,20 @@
+.user .header{
+    font-size: 2rem;
+    margin: 3rem 3rem 0 3rem;
+}
+
+.user-card{
+    background-color: white;
+    margin: 3rem;
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    box-shadow:  0 0.1rem 0.3rem rgb(0, 0, 0);
+}
+
+.user-card p{    
+    color: rgb(151,151,151);
+}
+
+.user-card p span{    
+    font-weight: bold;
+}

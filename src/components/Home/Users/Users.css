@@ -1,0 +1,64 @@
+.users{
+    box-shadow:  0 0.1rem 0.3rem rgb(0, 0, 0);
+    height: 19rem;    
+    margin: 0 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    overflow: auto;  
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.users .header{
+    display: flex;
+    padding-right: 1rem;
+}
+
+.users .header h3{
+    padding-left: 2rem;
+}
+
+.users .header input{
+    margin-left: auto;
+    align-self: center;
+    border-radius: 0.5rem;
+    border: rgb(230,234,247) solid 0.1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 35%;
+    outline: none;
+}
+
+.users .users-displayed{
+    display: flex;
+    flex-direction: column;
+}
+
+.users .user-heading,.one-user{
+    display: flex;
+    padding: 1.3rem 0 1.3rem 2rem;
+    border-bottom: solid rgb(231,231,231) 0.1rem;
+}
+
+.users .user-heading{
+    color: rgb(151,151,151);    
+}
+
+.users .user-heading .arrow {
+    border: solid;
+    border-width: 0 0.15rem 0.15rem 0;
+    display: inline-block;
+    padding: 0.2rem;
+    margin: 0.15rem 0.2rem;
+}
+
+.users .user-heading .down {
+    transform: rotate(45deg);
+}
+
+.users .left,.mid,.right{
+    flex: 1;
+}

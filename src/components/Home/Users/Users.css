@@ -37,6 +37,11 @@
     flex-direction: column;
 }
 
+.users .users-displayed a{
+    text-decoration: none;
+    color: black;
+}
+
 .users .user-heading,.one-user{
     display: flex;
     padding: 1.3rem 0 1.3rem 2rem;

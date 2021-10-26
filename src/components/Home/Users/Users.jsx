@@ -1,5 +1,6 @@
 import './Users.css';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Users = () => {
     const [ data, setData ] = useState(null);
@@ -85,11 +86,11 @@ const Users = () => {
                     <div className="right">Date Registered <i class="arrow down"></i></div>
                 </div>
                 {data.map(oneData => (
-                    <div className="one-user" key={oneData.id}>
+                    <Link to={`/users/${oneData.id}`} className="one-user" key={oneData.id}>
                         <div className="left content-one">{oneData.name}</div>
                         <div className="mid content-two">{oneData.city}</div>
                         <div className="right content-one">{new Date(oneData.createdAt.slice(0,-1)).toLocaleString('en-US')}</div>
-                    </div>
+                    </Link>
                 ))}
             </div> :
             <div>Trying to access the data...</div>

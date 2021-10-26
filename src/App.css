@@ -1,7 +1,10 @@
+body{
+  margin:0;
+}
 .App {
   display: grid;
   grid-template-columns: 1.8fr 7fr; 
-  height: 97vh; 
+  height: 100vh; 
   background-color: rgb(230,234,247);
 }
 
